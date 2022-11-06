@@ -1,0 +1,38 @@
+<div class="matformfield">
+  <mat-form-field appearance="fill">
+    <mat-label>A Argument</mat-label>
+    <input id="numberOne" name="numberOne" #numberOne matInput>
+  </mat-form-field>
+</div>
+
+<div class="matformfield">
+  <mat-form-field appearance="fill">
+    <mat-label>Operator</mat-label>
+    <mat-select (selectionChange)="operatorChange($event.value)">
+      <mat-option value="Addition">+</mat-option>
+      <mat-option value="Substraction">-</mat-option>
+      <mat-option value="Multiplication">*</mat-option>
+      <mat-option value="Division">/</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<div class="matformfield">
+  <mat-form-field appearance="fill">
+    <mat-label>B Argument</mat-label>
+    <input id="numberTwo" name="numberTwo" #numberTwo matInput>
+  </mat-form-field>
+</div>
+
+<div class="matformfield">
+  <mat-form-field appearance="fill">
+    <mat-label>Result</mat-label>
+    <input [ngStyle]="{'color': response.font}" value="{{response.total}}" matInput>
+  </mat-form-field>
+</div>
+
+<div>
+  <button (click)="calculate(numberOne.value, numberTwo.value)" mat-raised-button color="primary">Calculate</button>
+</div>
+
+{{error}}
