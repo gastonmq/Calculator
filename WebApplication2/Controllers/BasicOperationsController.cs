@@ -9,6 +9,12 @@ namespace WebApplication2.Controllers
     [ApiController]
     public class BasicOperationsController : ControllerBase
     {
+        //Controllers of Basic operations.
+        //Feel free to add more basic operations
+        //Create other controller for complex operations
+
+
+        //Post to Addition: Receive RequestOperations return ResponseOperations
         [HttpPost("Addition")]
         public ResponseOperations PostAddition([FromBody] RequestOperations request)
         {
@@ -26,6 +32,7 @@ namespace WebApplication2.Controllers
             }
         }
 
+        //Post to Substraction: Receive RequestOperations return ResponseOperations
         [HttpPost("Substraction")]
         public ResponseOperations PostSubstraction([FromBody] RequestOperations request)
         {
@@ -42,6 +49,7 @@ namespace WebApplication2.Controllers
             }
         }
 
+        //Post to Multiplication: Receive RequestOperations return ResponseOperations
         [HttpPost("Multiplication")]
         public ResponseOperations PostMultiplication([FromBody] RequestOperations request)
         {
@@ -58,6 +66,7 @@ namespace WebApplication2.Controllers
             }
         }
 
+        //Post to Division: Receive RequestOperations return ResponseOperations
         [HttpPost("Division")]
         public ResponseOperations PostDivision([FromBody] RequestOperations request)
         {

@@ -4,6 +4,8 @@ namespace WebApplication2.Entities
 {
     public class BasicOperations
     {
+        //This Helper is needed for strategy.
+        //Controllers of operations will call this execute method to perform the basic operations
         private IOperations calculator;
         public BasicOperations(IOperations operation)
         {
