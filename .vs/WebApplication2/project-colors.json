@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "530e8079-7df9-492d-a07d-25e9db6e2033": {
+      "ProjectGuid": "530e8079-7df9-492d-a07d-25e9db6e2033",
+      "DisplayName": "TestCalculator",
+      "ColorIndex": 0
+    },
+    "b2aea0f3-5bbf-430e-81bf-4b70e1e01152": {
+      "ProjectGuid": "b2aea0f3-5bbf-430e-81bf-4b70e1e01152",
+      "DisplayName": "WebApplication2",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GYXtB0/2KpA7mMMlynxLMP2rOTJI5bOmnTubOKyY27u5SQw2e/Hxm2SWYCskhyme8LbqJ5xNHBmpUVMfa8+NPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\csgas\\source\\repos\\gm\\Calculator\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\csgas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\csgas\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\csgas\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/QHix5v6e3NImsmBclg8H9NR6QM5W6jOeIK6KZOJLyFqgyrLPGqLIc9mh0noMn8iN/mmEolkWsON9LNTWV0d/w==",
+  "dgSpecHash": "pF00Wi+91RJtq6cBHxda+CFBQfSm/SjfF5YVgdkK8vUFd9fAjlatsY3yMRtdXUrZpX1sWrkBVasSzKk/V/eHDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\csgas\\source\\repos\\WebApplication2\\TestCalculator\\TestCalculator.csproj",
+  "projectFilePath": "C:\\Users\\csgas\\source\\repos\\gm\\Calculator\\TestCalculator\\TestCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\csgas\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\csgas\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
